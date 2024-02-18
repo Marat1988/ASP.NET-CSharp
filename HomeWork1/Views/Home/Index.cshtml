@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h1>Домашняя работа №1</h1>
+@{
+    Random random = new Random();
+    char[] alphabet = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+    var dayOfYear = DateTime.Now.DayOfYear;
+    <h3>Номер текущего дня в году: @dayOfYear</h3>
+    <h3>Случайная буква английского алфавита: @alphabet[@random.Next(alphabet.Length)]</h3>
+}

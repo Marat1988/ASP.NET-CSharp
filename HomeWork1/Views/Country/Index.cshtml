@@ -1,0 +1,24 @@
+﻿@model IEnumerable<HomeWork1.Models.Country>
+@{
+    ViewBag.Title = "Страны";
+}
+<h1>Страны</h1>
+<div>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Название страны</th>
+                <th scope="col">Столица</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (HomeWork1.Models.Country item in Model)
+            {
+                <tr>
+                    <td scope="row">@item.Name</td>
+                    <td scope="row">@item.Capital</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
