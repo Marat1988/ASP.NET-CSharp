@@ -1,0 +1,70 @@
+﻿@using TestIocDi.Models
+@{
+    ViewBag.Title = "People";
+}
+@model List<Person>
+<h1>Список персон</h1>
+
+<div class="container mt-5">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>День рождения</th>
+                <th>Другая информация</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.BirthDay</td>
+                    <td>@item.OtherInformation</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<h1> Загрузите текстовый файл с данными о людях</h1>
+<form action="/Person/ParseFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <input type="submit" value="Отправить" />
+</form>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="text-danger">@ViewBag.ErrorMessage</div>
+}
+
+@if (@ViewBag.PeopleFromFile != null)
+{
+    <h1>Данные из файла</h1>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>День рождения</th>
+                <th>Другая информация</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @ViewBag.PeopleFromFile)
+            {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.BirthDay</td>
+                    <td>@item.OtherInformation</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+

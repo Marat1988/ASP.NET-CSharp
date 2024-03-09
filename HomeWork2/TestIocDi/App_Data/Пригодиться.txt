@@ -1,0 +1,81 @@
+CREATE TABLE Customers (CustId COUNTER CONSTRAINT PK_New PRIMARY KEY, CLstNm varchar(50))
+
+
+CREATE UNIQUE INDEX IX_WordTranslate ON Test2 (Word, Translate)
+CREATE UNIQUE INDEX IX_WordTranslate ON Table2 (Word, Translate)
+
+CREATE TABLE Table2 (id COUNTER CONSTRAINT PK_Table2 PRIMARY KEY, [Word] VARCHAR(50) NOT NULL, [Translate] VARCHAR(200))
+
+CREATE UNIQUE INDEX IX_Description ON ListDictionaries (Description)
+
+DragonFractalTask
+
+
+class Loop1_Task
+    {
+	/* Дано целое неотрицательное число N. Найти число, составленное теми же десятичными цифрами, 
+	что и N, но в обратном порядке. Запрещено использовать массивы. */ 
+        internal static long Reverse(int a)
+        {
+            return (long.TryParse(string.Join("", a.ToString().Reverse().ToArray()), out long number)) ? number : 0;
+        }
+    }
+
+
+
+    /*Дано N (1 ≤ N ≤ 27). Найти количество трехзначных натуральных чисел, сумма цифр которых равна N. 
+     * Операции деления (/, %) не использовать */
+    class Loop2_Task
+    {
+        internal static int NumberSum(int number)
+        {
+            int count = 0;
+            for (int i = 100; i <= 999; i++)
+            {
+                if (i.ToString().ToCharArray().Sum(c => c - 0x30) == number)
+                    count++;
+            }
+            return count;
+        }
+    }
+
+
+
+class Loop4_Task
+    {
+        // В массиве чисел найдите самый длинный подмассив из одинаковых чисел.
+        internal static int[] GetSubArray(int[] array)
+        {
+            int countNum = 1;
+            List<int> lst = new List<int>();
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i - 1] == array[i])
+                    countNum++;
+                else
+                {
+                    if (lst.Count< countNum)
+                    {
+                        lst.Clear();
+                        for (int j = i - 1; countNum > 0; j--) 
+                        {
+                            lst.Add(array[j]);
+                            countNum--;
+                        }
+                    }
+                    countNum = 1;
+                }
+            }
+           int[] arr2 = new int[lst.Count];
+            for (int i = 0; i < lst.Count; i++)
+            {
+                arr2[i] = lst[i];
+            }
+            return arr2;
+        }
+    }
+
+SELECT TOP 1 questionID FROM questions ORDER BY Rnd(-(100000*questionID)*Time())
+SELECT *, DCount("[id]","[RusEng]","[id]<=" & [id]) AS row_id, DCount("[id]","[RusEng]")
+FROM [RusEng]
+
