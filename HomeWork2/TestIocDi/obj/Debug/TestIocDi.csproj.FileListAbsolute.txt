@@ -117,3 +117,4 @@ C:\Users\HP\Documents\GitHub\ASP.NET-CSharp\HomeWork2\TestIocDi\bin\System.Json.
 C:\Users\HP\Documents\GitHub\ASP.NET-CSharp\HomeWork2\TestIocDi\bin\System.Text.Encodings.Web.xml
 C:\Users\HP\Documents\GitHub\ASP.NET-CSharp\HomeWork2\TestIocDi\bin\System.Text.Json.xml
 C:\Users\HP\Documents\GitHub\ASP.NET-CSharp\HomeWork2\TestIocDi\bin\System.ValueTuple.xml
+C:\Users\HP\Documents\GitHub\ASP.NET-CSharp\HomeWork2\TestIocDi\obj\Debug\TestIocDi.Migrations.AddTableBook.resources

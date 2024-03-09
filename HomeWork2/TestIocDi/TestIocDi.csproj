@@ -166,6 +166,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Context\MyContextInitializer.cs" />
     <Compile Include="Context\TestContext.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Global.asax.cs">
@@ -175,8 +176,17 @@
     <Compile Include="Migrations\202403081943374_MyFirstMigration.Designer.cs">
       <DependentUpon>202403081943374_MyFirstMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202403092315326_AddTableBook.cs" />
+    <Compile Include="Migrations\202403092315326_AddTableBook.Designer.cs">
+      <DependentUpon>202403092315326_AddTableBook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Repository\BookRepository.cs" />
+    <Compile Include="Repository\IBookRepository.cs" />
+    <Compile Include="Service\BookService.cs" />
+    <Compile Include="ViewModel\BookViewModel.cs" />
     <Compile Include="ViewModel\PersonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IPersonRepository.cs" />
@@ -231,10 +241,9 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Person\Index.cshtml" />
+    <Content Include="Views\Book\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -269,6 +278,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202403081943374_MyFirstMigration.resx">
       <DependentUpon>202403081943374_MyFirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403092315326_AddTableBook.resx">
+      <DependentUpon>202403092315326_AddTableBook.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

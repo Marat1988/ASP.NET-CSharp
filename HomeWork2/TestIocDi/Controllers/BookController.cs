@@ -3,29 +3,28 @@ using System.Collections.Generic;
 using System.Web;
 using System.Web.Mvc;
 using TestIocDi.Service;
-
-
+using TestIocDi.ViewModel;
 
 namespace TestIocDi.Controllers
 {
-    public class PersonController : Controller
+    public class BookController: Controller
     {
-        private readonly PersonService _personService;
+        private readonly BookService _bookService;
 
-        public PersonController(PersonService bookService)
+        public BookController(BookService bookService)
         {
-            _personService = bookService;
+            _bookService = bookService;
         }
 
         public ActionResult Index()
         {
-            var people = _personService.GetAllPerson();
-            ViewBag.PeopleFromFile = TempData["PeopleFromFile"] as List<PersonViewModel>;
+            var books = _bookService.GetAllBooks();
+            ViewBag.BooksFromFile = TempData["BooksFromFile"] as List<BookViewModel>;
             if (TempData["Error"] != null)
             {
                 ViewBag.ErrorMessage = TempData["Error"]; // Отображает сообщение об ошибке в представлении
             }
-            return View(people);
+            return View(books);
         }
 
         [HttpPost]
@@ -35,8 +34,8 @@ namespace TestIocDi.Controllers
             file.SaveAs(filePath);
             try
             {
-                List<PersonViewModel> peopleFromFiles = _personService.GetPersonsFromTextFile(filePath);
-                TempData["PeopleFromFile"] = peopleFromFiles;
+                List<BookViewModel> booksFromFiles = _bookService.GetBooksFromTextFile(filePath);
+                TempData["BooksFromFile"] = booksFromFiles;
             }
             catch (Exception ex)
             {

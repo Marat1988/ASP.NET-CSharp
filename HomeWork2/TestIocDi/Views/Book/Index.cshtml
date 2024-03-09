@@ -1,0 +1,71 @@
+﻿@using TestIocDi.Models
+@{
+    ViewBag.Title = "People";
+}
+@model List<Book>
+<h1>Список книг</h1>
+
+<div class="container mt-5">
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Название книги</th>
+                <th>ФИО автора</th>
+                <th>Стиль</th>
+                <th>Год издания</th>
+                <th>Другая информация</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Author</td>
+                    <td>@item.Style</td>
+                    <td>@item.Year</td>
+                    <td>@item.OtherInfo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<h1> Загрузите текстовый файл с данными о книгах</h1>
+<form action="/Book/ParseFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <input type="submit" value="Отправить" />
+</form>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="text-danger">@ViewBag.ErrorMessage</div>
+}
+
+@if (@ViewBag.BooksFromFile != null)
+{
+    <h1>Данные из файла</h1>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Название книги</th>
+                <th>ФИО автора</th>
+                <th>Стиль</th>
+                <th>Год издания</th>
+                <th>Другая информация</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @ViewBag.BooksFromFile)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Author</td>
+                    <td>@item.Style</td>
+                    <td>@item.Year</td>
+                    <td>@item.OtherInfo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

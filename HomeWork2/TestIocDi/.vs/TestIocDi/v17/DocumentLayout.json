@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\viewmodel\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:viewmodel\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\migrations\\202403081943374_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:migrations\\202403081943374_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\service\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:service\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:repository\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\repository\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:repository\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:views\\person\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\migrations\\202403092315326_addtablebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:migrations\\202403092315326_addtablebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\ViewModel\\PersonViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\PersonViewModel.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\ViewModel\\PersonViewModel.cs",
-              "RelativeToolTip": "ViewModel\\PersonViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T12:06:16.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Repository\\IPersonRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IPersonRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Repository\\IPersonRepository.cs",
-              "RelativeToolTip": "Repository\\IPersonRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T12:05:38.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PersonController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Controllers\\PersonController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PersonController.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Controllers\\PersonController.cs",
-              "RelativeToolTip": "Controllers\\PersonController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:34:25.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Repository\\PersonRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PersonRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Repository\\PersonRepository.cs",
-              "RelativeToolTip": "Repository\\PersonRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:29:10.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PersonService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Service\\PersonService.cs",
-              "RelativeDocumentMoniker": "Service\\PersonService.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Service\\PersonService.cs",
-              "RelativeToolTip": "Service\\PersonService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABPAAAA",
+              "Title": "202403092315326_AddTableBook.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403092315326_AddTableBook.cs",
+              "RelativeDocumentMoniker": "Migrations\\202403092315326_AddTableBook.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403092315326_AddTableBook.cs",
+              "RelativeToolTip": "Migrations\\202403092315326_AddTableBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:26:56.036Z",
+              "WhenOpened": "2024-03-09T23:15:40.32Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Views\\Person\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Person\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Views\\Person\\Index.cshtml",
-              "RelativeToolTip": "Views\\Person\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-09T11:17:05.632Z",
+              "DocumentIndex": 0,
+              "Title": "202403081943374_MyFirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403081943374_MyFirstMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\202403081943374_MyFirstMigration.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403081943374_MyFirstMigration.cs",
+              "RelativeToolTip": "Migrations\\202403081943374_MyFirstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T23:30:08.348Z",
               "EditorCaption": ""
             }
           ]
