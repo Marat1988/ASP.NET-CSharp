@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\migrations\\202403081943374_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\migrations\\202403081943374_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:migrations\\202403081943374_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|c:\\users\\hp\\documents\\github\\asp.net-csharp\\homework2\\testiocdi\\migrations\\202403092315326_addtablebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\migrations\\202403092315326_addtablebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD356101-A18F-470B-A086-4E83D85F0A83}|TestIocDi.csproj|solutionrelative:migrations\\202403092315326_addtablebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,23 +24,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "202403092315326_AddTableBook.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403092315326_AddTableBook.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\Migrations\\202403092315326_AddTableBook.cs",
               "RelativeDocumentMoniker": "Migrations\\202403092315326_AddTableBook.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403092315326_AddTableBook.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\Migrations\\202403092315326_AddTableBook.cs",
               "RelativeToolTip": "Migrations\\202403092315326_AddTableBook.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-09T23:15:40.32Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "202403081943374_MyFirstMigration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403081943374_MyFirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\Migrations\\202403081943374_MyFirstMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\202403081943374_MyFirstMigration.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\TestIocDi\\Migrations\\202403081943374_MyFirstMigration.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\ASP.NET-CSharp\\HomeWork2\\Migrations\\202403081943374_MyFirstMigration.cs",
               "RelativeToolTip": "Migrations\\202403081943374_MyFirstMigration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
